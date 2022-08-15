@@ -1,0 +1,30 @@
+.tabla{
+    border-radius: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    width:100%;
+    background: rgba(255, 179, 16, 0.5);
+    margin-top: 25px;
+
+}
+
+.tabla tr{
+    
+    
+    width: 100%;
+
+}
+.tabla thead{font-weight: 600;
+    
+
+}
+.tabla tr td{
+
+    text-align: center;    
+    justify-content: center;
+
+}
+.tabla .espacioBlancoTabla{
+    width: 100%;
+    height:0px;
+}
