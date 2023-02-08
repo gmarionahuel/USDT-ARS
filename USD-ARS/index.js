@@ -91,7 +91,6 @@ function venta(){
     let filas = coinsList.querySelectorAll('.fila');
     for(i=0;i<filas.length;i++){   
         preciosVenta[i] = filas[i].querySelector('.precioVenta');
-        //console.log(preciosVenta[i].innerHTML);
         
     }
     
@@ -320,7 +319,6 @@ function ordenSpread(listaSpread){
             if (listaSpread[j].innerHTML.replace('%','') == busqueda){
                 fila = listaSpread[j].parentNode;
                 coinsList.appendChild(fila);
-                console.log('hola');
             }
         }
 
